@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../images/waves.jpg) no-repeat top center fixed;
+    background-size: cover;
+}
+html{
+    scroll-behavior: smooth;
+}
+main{
+    width: 1000px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 30px #0f0f0f;
+    background: white;
+}
+header{
+    width: 100%;
+    height: 650px;
+    background: url(../images/headerbg.jpg) no-repeat center fixed;
+    background-size: cover;
+} 
+.head{
+    width: 100%;
+    height: 100%;
+    background: url(../images/gridtile.png) fixed center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-bottom: 10px solid #0083ce;
+}
+.logo{
+    width: 300px;
+}
+.content{
+    width: 420px;
+    border-top: 1px solid #27E0FF ;
+    border-bottom: 1px solid #27E0FF ;
+}
+.content h2{
+    font-size: 36px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.head ul{
+    display: flex;
+    list-style: none;
+}
+.head ul li a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 12px 39px;
+    border-right: 2px solid #fff;
+}
+.top{
+    width: 100%;
+    height: 321px;
+}
+#home .top{
+    background: url(../images/3.jpg) center center  no-repeat fixed;
+    background-size: 80% auto;
+}
+#about .top{
+    background: url(../images/1.jpg) center center  no-repeat fixed;
+    background-size: 75% auto;
+}
+#service .top{
+    background: url(../images/2.jpg) center center  no-repeat fixed;
+    background-size: 100% auto;
+}
+#training .top{
+    background: url(../images/banner-7.jpg) center center  no-repeat fixed;
+    background-size: 100% auto;
+}
+#contact .top{
+    background: url(../images/4.jpg) center center  no-repeat fixed;
+    background-size: 80% auto;
+}
+.top-overlay{
+    width: 100%;
+    height: 321px;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top-heading{
+    border: 8px #fff solid;
+    font-size: 26px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px;
+}
+.bottom{
+    font-size: 17px;
+    color: #182D55;
+    line-height: 30px;
+    text-align: center;
+    padding: 60px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 490px;
+}
+.link{
+    font-size: 26px;
+    line-height: 55px;
+}
+.link a{
+    color: #182D55;
+
+}
+.contact{
+    color: #182D55;
+    line-height: 55px;
+    text-align: center;
+    font-size: 34px;
+}
+.india{
+    line-height: 30px;
+    font-size: 20px;
+}
+.country{
+    font-size: 24px;
+}
+footer{
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    font-size: 26px;
+    text-align: center;
+    line-height: 55px;
+    color: #Fff;
+}
+footer a{
+    padding: 15px 0px;
+    text-decoration: none;
+    color: #fff;
+}
