@@ -21,6 +21,8 @@ header{
     height: 650px;
     background: url(../images/headerbg.jpg) no-repeat center fixed;
     background-size: cover;
+    border-bottom: 10px solid #0083ce;
+
 } 
 .head{
     width: 100%;
@@ -31,7 +33,6 @@ header{
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    border-bottom: 10px solid #0083ce;
 }
 .logo{
     width: 300px;
